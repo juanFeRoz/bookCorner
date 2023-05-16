@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #dbbea6;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.cl{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    background-color: #871515;
+    margin-bottom: 25px;
+    position: relative;
+    top: 14px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+.menu{
+    
+    background-color:#871515;
+    height: 100px;
+    width: 100%;
+}
+
+.edit-titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 6rem;
+    text-shadow: #000 0 -5px;
+    color: #cdb493;
+}
+
+
+
+.link-img{
+    display: flex;
+    width:187px ;
+
+}
+
+.div-img{
+    width: 187px;
+}
+
+.opcion{
+    
+    padding: 10px 76px;
+    background-color:#871515;
+    color: aliceblue;
+}
+
+.opcion:hover{
+   
+    background-color: #c7b8aa1f;
+    border-radius: 10px;
+    border: 1px solid black;
+
+
+}
+.opciones{
+    
+    text-align: center;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    background-color:#871515;
+    
+   
+}
+.contenedorImagenFondo{
+    background-image: url(images/fondos\ de\ pantalla\ saint✨.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.tituloInput{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    position: relative;
+    top: 86px;
+    font-size: xx-large;
+    font-style: bold;
+    
+}
+
+.barra{
+    width: 390px;
+    font-size: 21px;
+}
+.barraEInput{
+    display: inline-flex;
+}
